@@ -3,7 +3,7 @@
 
     <v-app>
 
-      <v-banner v-if="deferredPrompt" color="info" dark class="text-left">
+      <!-- <v-banner v-if="deferredPrompt" color="info" dark class="text-left">
 
         Install our Apps
 
@@ -17,13 +17,9 @@
 
         </template>
 
-      </v-banner>
+      </v-banner> -->
 
-      <router-view>
-
-
-
-      </router-view>
+      <router-view></router-view>
 
     </v-app>
 

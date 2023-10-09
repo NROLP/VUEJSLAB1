@@ -1,23 +1,23 @@
 <template>
-    <div class="manage">
-        <h1>This is your MANAGE page Congrats!</h1>
-        <p>Now you can take a rest and eat some noodles or take a coffee brake.</p>
+    <div class="home">
+        <h1>Congrats you made it this far.</h1>
+        <p>You can now proceed to link your manage page.</p>
     </div>
 
-    <RouterLink to="/" class="link">Click me -> Home</RouterLink>
-
+    <RouterLink to="/manage" class="link">Click me -> Manage</RouterLink>
 </template>
 
 <script>
+
 export default {
-    name: 'Manage'
+    name: 'Home'
 }
 </script>
 
 <style scoped>
 /* Add your custom CSS styles here */
 
-.manage {
+.home {
     background-color: #0A0A0A;
     padding: 20px;
     border: 1px solid #ccc;
