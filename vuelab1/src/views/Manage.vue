@@ -26,12 +26,12 @@ export default {
 }
 
 h1 {
-    font-size: 24px;
-    color: #333;
+    font-size: 30px;
+    color: #F5F5F7;
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     color: #666;
 }
 .link {

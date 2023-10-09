@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <h1>Congrats you made it this far.</h1>
+        <h1>Congrats, you made it this far in my MAIN page.</h1>
         <p>You can now proceed to link your manage page.</p>
     </div>
 
@@ -26,12 +26,12 @@ export default {
 }
 
 h1 {
-    font-size: 24px;
-    color: #333;
+    font-size: 30px;
+    color: #F5F5F7;
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     color: #666;
 }
 .link {
